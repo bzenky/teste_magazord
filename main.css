@@ -41,12 +41,8 @@
 .headerContainer .headerContent a + a {
   margin-left: 25px;
 }
-.headerContainer .headerContent a .userIcon {
-  width: 20px;
-  margin-right: 5px;
-}
-.headerContainer .headerContent a .cartIcon {
-  width: 20px;
+.headerContainer .headerContent a .headerIcon {
+  width: 18px;
   margin-right: 5px;
 }
 .headerContainer .headerContent .searchInput {
@@ -61,6 +57,10 @@
 }
 .headerContainer .headerContent .searchInput:focus {
   outline: 0;
+}
+.headerContainer .headerContent .headerAlignCenter {
+  display: flex;
+  align-items: center;
 }
 
 .banner {

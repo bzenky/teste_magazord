@@ -33,13 +33,8 @@
         margin-left: 25px;
       }
 
-      .userIcon {
-        width: 20px;
-        margin-right: 5px;
-      }
-
-      .cartIcon {
-        width: 20px;
+      .headerIcon {
+        width: 18px;
         margin-right: 5px;
       }
     }
@@ -57,6 +52,11 @@
       &:focus {
         outline: 0;
       }
+    }
+
+    .headerAlignCenter {
+      display: flex;
+      align-items: center;
     }
   }
 }
