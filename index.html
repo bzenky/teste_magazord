@@ -8,7 +8,8 @@
   <meta name="description" content="Teste realizado para vaga de Front-End na Magazord">
   <meta http-equiv="X-UA-Compatible" content="IE=edge">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;700;900&display=swap" rel="stylesheet">
+  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;700;900&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
   <link rel="stylesheet" href="main.css">
   <title>Teste Magazord</title>
 </head>
@@ -36,14 +37,72 @@
     </div>
   </header>
 
-  <div class="banner">
-    <img src="assets/images/banner.webp" alt="Banner principal" class="heroBanner">
-    <div class="heroBannerContent">
-      <span>A melhor <br /> decoração para uma casa dos sonhos.</span>
-      <button>veja mais</button>
+  <section>
+    <div class="banner">
+      <img src="assets/images/banner.webp" alt="Banner principal" class="heroBanner">
+      <div class="heroBannerContent">
+        <span>A melhor <br /> decoração para uma casa dos sonhos.</span>
+        <button>veja mais</button>
+      </div>
     </div>
-  </div>
+  </section>
 
+  <section>
+    <div class="swiper mySwiper highlights">
+      <div class="highlightsContainer">
+        <h3 class="highlightsTitle">Novidades em destaque</h3>
+        <hr>
+      </div>
+      <div class="swiper-wrapper">
+        <div class="swiper-slide">
+          <img src="assets/images/aparador-buffet.webp" alt="Aparador Buffet">
+          <div class="productDescription">
+            <span class="productTitle">Aparador Buffet</span>
+            <span class="oldPrice"><s>R$ 437,90</s></span>
+            <span class="actualPrice"><strong>R$ 379,99</strong> à vista</span>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/images/cadeira-presidente.webp" alt="Cadeira Presidente">
+          <div class="productDescription">
+            <span class="productTitle">Cadeira Presidente 04 Rodas</span>
+            <span class="oldPrice"><s>R$ 879,00</s></span>
+            <span class="actualPrice"><strong>R$ 799,99</strong> à vista</span>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/images/ar-condicionado.webp" alt="Ar Condicionado TCL">
+          <div class="productDescription">
+            <span class="productTitle">Ar Condicionado TCL 12.000BTU</span>
+            <span class="oldPrice"><s>R$ 1799,99</s></span>
+            <span class="actualPrice"><strong>R$ 1499,99</strong> à vista</span>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/images/freezer-vertical-575l.webp" alt="Freezer Vertical">
+          <div class="productDescription">
+            <span class="productTitle">Freezer Vertical</span>
+            <span class="oldPrice"><s>R$ 2499,99</s></span>
+            <span class="actualPrice"><strong>R$ 2179,99</strong> à vista</span>
+          </div>
+        </div>
+        <div class="swiper-slide">
+          <img src="assets/images/jogo-panelas.webp" alt="Jogo de Panelas">
+          <div class="productDescription">
+            <span class="productTitle">Jogo de 05 Panelas</span>
+            <span class="oldPrice"><s>R$ 89,90</s></span>
+            <span class="actualPrice"><strong>R$ 49,99</strong> à vista</span>
+          </div>
+        </div>
+      </div>
+      <div class="swiper-button-prev"></div>
+      <div class="swiper-button-next"></div>
+    </div>
+  </section>
+
+
+  <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
+  <script src="assets/js/swiper.js"></script>
 </body>
 
 </html>

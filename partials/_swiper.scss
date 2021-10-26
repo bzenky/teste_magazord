@@ -1,0 +1,84 @@
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-family: 'Montserrat', sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  max-width: 1200px;
+  height: fit-content;
+  padding: 15px 0;
+
+
+  .highlightsContainer {
+    padding: 15px 0;
+
+    .highlightsTitle {
+      margin-bottom: 5px;
+    }
+
+    hr {
+      width: 30px;
+      height: 2px; 
+      border: 1px solid rgb(4, 130, 198);
+    }
+  }
+  
+  .swiper-slide {
+    text-align: center;
+    font-size: 1rem;
+    cursor: pointer;
+
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: -webkit-flex;
+    display: flex;
+    flex-direction: column;
+    -webkit-box-pack: center;
+    -ms-flex-pack: center;
+    -webkit-justify-content: center;
+    justify-content: center;
+    -webkit-box-align: center;
+    -ms-flex-align: center;
+    -webkit-align-items: center;
+    align-items: center;
+
+    img {
+      border: 1px solid rgb(0 0 0 / .1);
+      width: 250px;
+      object-fit: cover;
+    }
+
+    .productDescription {
+
+      span {
+        display: block;
+      }
+
+      .productTitle {
+        margin-top: 10px;
+        font-weight: 500;
+      }
+
+      .oldPrice {
+        margin: 5px 0;
+        font-size: .9rem;
+        color: rgb(121, 121, 121);
+      }
+
+      .actualPrice {
+        font-weight: 500;
+      }
+    }
+  }
+}
+

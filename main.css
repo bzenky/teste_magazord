@@ -109,4 +109,74 @@
   padding: 1.25rem 4.25rem;
   border: 2px solid red;
   z-index: -1;
+}
+
+html,
+body {
+  position: relative;
+  height: 100%;
+}
+
+body {
+  font-family: "Montserrat", sans-serif;
+  font-size: 14px;
+  color: #000;
+  margin: 0;
+  padding: 0;
+}
+
+.swiper {
+  width: 100%;
+  max-width: 1200px;
+  height: fit-content;
+  padding: 15px 0;
+}
+.swiper .highlightsContainer {
+  padding: 15px 0;
+}
+.swiper .highlightsContainer .highlightsTitle {
+  margin-bottom: 5px;
+}
+.swiper .highlightsContainer hr {
+  width: 30px;
+  height: 2px;
+  border: 1px solid #0482c6;
+}
+.swiper .swiper-slide {
+  text-align: center;
+  font-size: 1rem;
+  cursor: pointer;
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: -webkit-flex;
+  display: flex;
+  flex-direction: column;
+  -webkit-box-pack: center;
+  -ms-flex-pack: center;
+  -webkit-justify-content: center;
+  justify-content: center;
+  -webkit-box-align: center;
+  -ms-flex-align: center;
+  -webkit-align-items: center;
+  align-items: center;
+}
+.swiper .swiper-slide img {
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  width: 250px;
+  object-fit: cover;
+}
+.swiper .swiper-slide .productDescription span {
+  display: block;
+}
+.swiper .swiper-slide .productDescription .productTitle {
+  margin-top: 10px;
+  font-weight: 500;
+}
+.swiper .swiper-slide .productDescription .oldPrice {
+  margin: 5px 0;
+  font-size: 0.9rem;
+  color: #797979;
+}
+.swiper .swiper-slide .productDescription .actualPrice {
+  font-weight: 500;
 }/*# sourceMappingURL=main.css.map */
