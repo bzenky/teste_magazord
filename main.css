@@ -1,0 +1,112 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat", sans-serif;
+}
+
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.headerContainer {
+  border-bottom: 1px solid rgba(0, 0, 0, 0.1);
+  height: 75px;
+}
+.headerContainer .headerContent {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  max-width: 1200px;
+  height: 75px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+.headerContainer .headerContent .title {
+  font-size: 2.25rem;
+  color: #0482c6;
+}
+.headerContainer .headerContent a {
+  text-decoration: none;
+  font-size: 0.75rem;
+  font-weight: bold;
+  color: black;
+  transition: color 0.3s ease-in-out;
+}
+.headerContainer .headerContent a:hover {
+  color: #0482c6;
+}
+.headerContainer .headerContent a + a {
+  margin-left: 25px;
+}
+.headerContainer .headerContent a .userIcon {
+  width: 20px;
+  margin-right: 5px;
+}
+.headerContainer .headerContent a .cartIcon {
+  width: 20px;
+  margin-right: 5px;
+}
+.headerContainer .headerContent .searchInput {
+  border: 0;
+  border-bottom: 2px solid rgba(0, 0, 0, 0.1);
+  padding: 10px 0;
+  background-color: transparent;
+  background-image: url(../assets/images/searchIcon.svg);
+  background-size: 20px;
+  background-repeat: no-repeat;
+  background-position: right;
+}
+.headerContainer .headerContent .searchInput:focus {
+  outline: 0;
+}
+
+.banner {
+  position: relative;
+  max-width: 1200px;
+  height: calc(100vh - 75px);
+  margin: 0 auto;
+}
+.banner .heroBanner {
+  position: relative;
+  width: 100%;
+  height: 100%;
+}
+.banner .heroBanner::before {
+  content: "";
+  position: absolute;
+  inset: 0;
+  filter: brightness(1.2);
+}
+.banner .heroBannerContent {
+  position: absolute;
+  max-width: 310px;
+  top: calc(50% - 83px);
+  left: 100px;
+  z-index: 6;
+}
+.banner .heroBannerContent span {
+  display: block;
+  font-size: 1.75rem;
+  font-weight: bold;
+}
+.banner .heroBannerContent button {
+  position: relative;
+  margin-top: 25px;
+  padding: 0.75rem 2.25rem;
+  font-weight: bold;
+  background: white;
+  border: 0;
+  cursor: pointer;
+}
+.banner .heroBannerContent button::before {
+  content: "";
+  position: absolute;
+  top: 2px;
+  left: 2px;
+  padding: 1.25rem 4.25rem;
+  border: 2px solid red;
+  z-index: -1;
+}/*# sourceMappingURL=main.css.map */
