@@ -311,4 +311,139 @@ body {
   padding: 1.25rem 4.25rem;
   border: 2px solid red;
   z-index: -1;
+}
+
+.highlightsCategories {
+  margin-top: 25px;
+  background-color: #f0f0f0;
+}
+.highlightsCategories .highlightsContainer {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 15px 0;
+}
+.highlightsCategories .highlightsContainer .highlightsTitle {
+  margin: 25px 0 5px;
+}
+.highlightsCategories .highlightsContainer hr {
+  width: 30px;
+  height: 2px;
+  border: 1px solid #0482c6;
+}
+.highlightsCategories .rowHighlightsCategories {
+  display: flex;
+  padding-bottom: 35px;
+  justify-content: space-between;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+.highlightsCategories .rowHighlightsCategories .majorCard {
+  position: relative;
+  width: 475px;
+  height: 250px;
+  padding: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: white;
+}
+.highlightsCategories .rowHighlightsCategories .majorCard .cardTitle {
+  font-size: 1rem;
+}
+.highlightsCategories .rowHighlightsCategories .majorCard .cardDescription {
+  display: flex;
+  margin-top: 5px;
+  color: #797979;
+}
+.highlightsCategories .rowHighlightsCategories .majorCard .cardDescription .cardPlus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border: 1px solid #797979;
+  border-radius: 50%;
+  font-size: 1.25rem;
+}
+.highlightsCategories .rowHighlightsCategories .majorCard .cardDescription .cardLink {
+  text-decoration: none;
+  font-weight: bold;
+  color: #797979;
+  transition: color 0.3s ease-in-out;
+}
+.highlightsCategories .rowHighlightsCategories .majorCard .cardDescription .cardLink:hover {
+  color: #646464;
+}
+.highlightsCategories .rowHighlightsCategories .majorCard .couchImg {
+  position: absolute;
+  top: calc(50% - 60px);
+  right: -50px;
+  width: 65%;
+}
+.highlightsCategories .rowHighlightsCategories .majorCard .lightImg {
+  position: absolute;
+  top: calc(50% - 130px);
+  right: 0;
+  width: 55%;
+}
+.highlightsCategories .rowHighlightsCategories .minorCard {
+  position: relative;
+  width: 350px;
+  height: 250px;
+  padding: 25px;
+  border: 1px solid rgba(0, 0, 0, 0.1);
+  overflow: hidden;
+  background-color: white;
+}
+.highlightsCategories .rowHighlightsCategories .minorCard .cardTitle {
+  font-size: 1rem;
+}
+.highlightsCategories .rowHighlightsCategories .minorCard .cardDescription {
+  display: flex;
+  margin-top: 5px;
+  color: #797979;
+}
+.highlightsCategories .rowHighlightsCategories .minorCard .cardDescription .cardPlus {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 20px;
+  height: 20px;
+  margin-right: 5px;
+  border: 1px solid #797979;
+  border-radius: 50%;
+  font-size: 1.25rem;
+}
+.highlightsCategories .rowHighlightsCategories .minorCard .cardDescription .cardLink {
+  text-decoration: none;
+  font-weight: bold;
+  color: #797979;
+  transition: color 0.3s ease-in-out;
+}
+.highlightsCategories .rowHighlightsCategories .minorCard .cardDescription .cardLink:hover {
+  color: #646464;
+}
+.highlightsCategories .rowHighlightsCategories .minorCard .workstationImg {
+  position: absolute;
+  top: calc(50% - 90px);
+  right: -45px;
+  width: 75%;
+}
+.highlightsCategories .rowHighlightsCategories .minorCard .rackImg {
+  position: absolute;
+  top: calc(50% - 110px);
+  right: -45px;
+  width: 75%;
+}
+.highlightsCategories .rowHighlightsCategories .minorCard .smartphoneImg {
+  position: absolute;
+  top: calc(50% - 91px);
+  right: -40px;
+  width: 70%;
+}
+.highlightsCategories .rowHighlightsCategories .minorCard .decorationImg {
+  position: absolute;
+  top: calc(50% - 113px);
+  right: -40px;
+  width: 65%;
 }/*# sourceMappingURL=main.css.map */

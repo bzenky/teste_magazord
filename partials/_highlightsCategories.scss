@@ -1,0 +1,162 @@
+.highlightsCategories {
+  margin-top: 25px;
+  background-color: rgb(240 240 240);
+
+  .highlightsContainer {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 15px 0;
+
+    .highlightsTitle {
+      margin: 25px 0 5px;
+    }
+
+    hr {
+      width: 30px;
+      height: 2px; 
+      border: 1px solid rgb(4, 130, 198);
+    }
+  }
+
+  .rowHighlightsCategories {
+    display: flex;
+    padding-bottom: 35px; 
+    justify-content: space-between;
+    max-width: 1200px;
+    margin: 0 auto;
+
+    .majorCard {
+      position: relative;
+      width: 475px;
+      height: 250px;
+      padding: 25px;
+      border: 1px solid rgb(0 0 0 / .1);
+      overflow: hidden; 
+      background-color: rgb(255 255 255);
+
+      .cardTitle {
+        font-size: 1rem;
+      }
+
+      .cardDescription {
+        display: flex;
+        margin-top: 5px;
+        color: rgb(121 121 121);
+
+        .cardPlus {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+  
+          width: 20px;
+          height: 20px;
+          margin-right: 5px;
+          border: 1px solid rgb(121 121 121);
+          border-radius: 50%;
+
+          font-size: 1.25rem;
+        }
+
+        .cardLink {
+          text-decoration: none;
+          font-weight: bold;
+          color: rgb(121 121 121);
+
+          transition: color .3s ease-in-out;
+
+          &:hover  {
+            color: rgb(100 100 100);
+          }
+        }
+      }
+      
+      .couchImg {
+        position: absolute;
+        top: calc(50% - 60px);
+        right: -50px;
+        width: 65%;
+      }
+
+      .lightImg {
+        position: absolute;
+        top: calc(50% - 130px);
+        right: 0;
+        width: 55%;
+      }
+    }
+
+    .minorCard {
+      position: relative;
+      width: 350px;
+      height: 250px;
+      padding: 25px;
+      border: 1px solid rgb(0 0 0 / .1);
+      overflow: hidden; 
+      background-color: rgb(255 255 255);
+
+      .cardTitle {
+        font-size: 1rem;
+      }
+
+      .cardDescription {
+        display: flex;
+        margin-top: 5px;
+        color: rgb(121 121 121);
+
+        .cardPlus {
+          display: flex;
+          align-items: center;
+          justify-content: center;
+  
+          width: 20px;
+          height: 20px;
+          margin-right: 5px;
+          border: 1px solid rgb(121 121 121);
+          border-radius: 50%;
+
+          font-size: 1.25rem;
+        }
+
+        .cardLink {
+          text-decoration: none;
+          font-weight: bold;
+          color: rgb(121 121 121);
+
+          transition: color .3s ease-in-out;
+
+          &:hover  {
+            color: rgb(100 100 100);
+          }
+        }
+      }
+
+      .workstationImg {
+        position: absolute;
+        top: calc(50% - 90px);
+        right: -45px;
+        width: 75%;
+      }
+
+      .rackImg {
+        position: absolute;
+        top: calc(50% - 110px);
+        right: -45px;
+        width: 75%;
+      }
+
+      .smartphoneImg {
+        position: absolute;
+        top: calc(50% - 91px);
+        right: -40px;
+        width: 70%;
+      }
+
+      .decorationImg {
+        position: absolute;
+        top: calc(50% - 113px);
+        right: -40px;
+        width: 65%;
+      }
+    }
+  }
+}
